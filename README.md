@@ -25,61 +25,43 @@ The primarily way of providing perspective, is to curate a dataset, which:
 
 ## Dataset
 This dataset is available in /nlp_hsk/dataset/
-    - [**symbol2level.py**](https://github.com/martin-garaj/nlp_hsk/blob/8541300685b24041b92ce28090f77d1b79c3da75/nlp_hsk/dataset/symbol2level.py)
-
+    - [**symbol2level.py**](https://github.com/martin-garaj/nlp_hsk/blob/8541300685b24041b92ce28090f77d1b79c3da75/nlp_hsk/dataset/symbol2level.py)  
         - *symbol2level* dictionary translating chinese symbol to the HSK level,
-          where the learner can learn the symbol
-
-        - example:
-            '你': [ 1],
-
-    - [**symbol2pinyin.py**](https://github.com/martin-garaj/nlp_hsk/blob/8541300685b24041b92ce28090f77d1b79c3da75/nlp_hsk/dataset/symbol2pinyin.py)
-
+          where the learner can learn the symbol  
+        - example:  
+            '你': [ 1],  
+    - [**symbol2pinyin.py**](https://github.com/martin-garaj/nlp_hsk/blob/8541300685b24041b92ce28090f77d1b79c3da75/nlp_hsk/dataset/symbol2pinyin.py)  
         - *symbol2pinyin* dictionary translating chinese symbol to its 
-          pronounciation accompanied with one of the tones (1:ā, 2:á, 3:ǎ, 4:à)
-
-        - example:
-            '你': [('ni', 3)],
-
-    - [**symbol2radical.py**](https://github.com/martin-garaj/nlp_hsk/blob/8541300685b24041b92ce28090f77d1b79c3da75/nlp_hsk/dataset/symbol2radical.py)
-
+          pronounciation accompanied with one of the tones (1:ā, 2:á, 3:ǎ, 4:à)  
+        - example:  
+            '你': [('ni', 3)],  
+    - [**symbol2radical.py**](https://github.com/martin-garaj/nlp_hsk/blob/8541300685b24041b92ce28090f77d1b79c3da75/nlp_hsk/dataset/symbol2radical.py)  
         - *symbol2pinyin* a nested dictionary which translates a chinese 
-        symbol to its constituent parts
-
-        - example:
-            '你': {'亻': None,
-                   '尔': {'小': None,
-                          '𠂊': None}},
-
-    - [**symbol2stroke.py**](https://github.com/martin-garaj/nlp_hsk/blob/8541300685b24041b92ce28090f77d1b79c3da75/nlp_hsk/dataset/symbol2stroke.py)
-
+        symbol to its constituent parts  
+        - example:  
+            '你': {'亻': None,  
+                   '尔': {'小': None,  
+                          '𠂊': None}},  
+    - [**symbol2stroke.py**](https://github.com/martin-garaj/nlp_hsk/blob/8541300685b24041b92ce28090f77d1b79c3da75/nlp_hsk/dataset/symbol2stroke.py)  
         - *symbol2stroke* dictionary translating chinese symbol to its 
-          constituent strokes
-
-        - example:
-            '你': [ 'ノ', '丨', 'ノ', 'フ', '丨', 'ノ', '丶'],
-
-    - [**symbol2word.py**](https://github.com/martin-garaj/nlp_hsk/blob/8541300685b24041b92ce28090f77d1b79c3da75/nlp_hsk/dataset/symbol2word.py)
-
+          constituent strokes  
+        - example:  
+            '你': [ 'ノ', '丨', 'ノ', 'フ', '丨', 'ノ', '丶'],  
+    - [**symbol2word.py**](https://github.com/martin-garaj/nlp_hsk/blob/8541300685b24041b92ce28090f77d1b79c3da75/nlp_hsk/dataset/symbol2word.py)  
         - *symbol2word* dictionary connecting chinese symbol with words it is 
-          part of
-
-        - example:
-           '你': ['你',
-                  '你们'],
-
-    - [**word2meaning.py**](https://github.com/martin-garaj/nlp_hsk/blob/8541300685b24041b92ce28090f77d1b79c3da75/nlp_hsk/dataset/symbol2word.py)
-
-        - *word2meaning* dictionary connecting words with their meaning
-
-        - example:
-           '你': [  'you'],
-
-    - ![**level2color.py**](https://github.com/martin-garaj/nlp_hsk/blob/8541300685b24041b92ce28090f77d1b79c3da75/nlp_hsk/dataset/level2color.py)
-
+          part of  
+        - example:  
+           '你': ['你',  
+                  '你们'],  
+    - [**word2meaning.py**](https://github.com/martin-garaj/nlp_hsk/blob/8541300685b24041b92ce28090f77d1b79c3da75/nlp_hsk/dataset/symbol2word.py)  
+        - *word2meaning* dictionary connecting words with their meaning  
+        - example:  
+           '你': [  'you'],  
+    - ![**level2color.py**](https://github.com/martin-garaj/nlp_hsk/blob/8541300685b24041b92ce28090f77d1b79c3da75/nlp_hsk/dataset/level2color.py)  
         - *level2color* dictionary provides a convenient way to obtain the 
           color of specific HSK level (1 to 6) to visually match the data to 
-          the progress of the learning process 
+          the progress of the learning process   
+            
 
 ## Natural Language Processing
 Mandarin (symbols, pinyin and meaning) create a 3-layer system of networks, 
