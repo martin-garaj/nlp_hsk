@@ -57,7 +57,7 @@ This dataset is available in /nlp_hsk/dataset/
 &emsp;&emsp; - *word2meaning* dictionary connecting words with their meaning  
 &emsp;&emsp; - example:  
 &emsp;&emsp;&emsp; '你': [  'you'],  
-&emsp; - ![**level2color.py**](https://github.com/martin-garaj/nlp_hsk/blob/8541300685b24041b92ce28090f77d1b79c3da75/nlp_hsk/dataset/level2color.py)  
+&emsp; - [**level2color.py**](https://github.com/martin-garaj/nlp_hsk/blob/8541300685b24041b92ce28090f77d1b79c3da75/nlp_hsk/dataset/level2color.py)  
 &emsp;&emsp; - *level2color* dictionary provides a convenient way to obtain the 
           color of specific HSK level (1 to 6) to visually match the data to 
           the progress of the learning process   
