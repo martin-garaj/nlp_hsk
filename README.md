@@ -25,11 +25,11 @@ The primarily way of providing perspective, is to curate a dataset, which:
 
 ## Dataset
 This dataset is available in /nlp_hsk/dataset/
-emsp - [**symbol2level.py**](https://github.com/martin-garaj/nlp_hsk/blob/8541300685b24041b92ce28090f77d1b79c3da75/nlp_hsk/dataset/symbol2level.py)  
-emsp emsp - *symbol2level* dictionary translating chinese symbol to the HSK level,
+&emsp; - [**symbol2level.py**](https://github.com/martin-garaj/nlp_hsk/blob/8541300685b24041b92ce28090f77d1b79c3da75/nlp_hsk/dataset/symbol2level.py)  
+&emsp;&emsp; - *symbol2level* dictionary translating chinese symbol to the HSK level,
           where the learner can learn the symbol  
-emsp emsp - example:  
-emsp emsp emsp   '你': [ 1],  
+&emsp;&emsp; - example:  
+&emsp;&emsp;&emsp;   '你': [ 1],  
     - [**symbol2pinyin.py**](https://github.com/martin-garaj/nlp_hsk/blob/8541300685b24041b92ce28090f77d1b79c3da75/nlp_hsk/dataset/symbol2pinyin.py)  
         - *symbol2pinyin* dictionary translating chinese symbol to its 
           pronounciation accompanied with one of the tones (1:ā, 2:á, 3:ǎ, 4:à)  
