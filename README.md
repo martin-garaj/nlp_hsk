@@ -3,7 +3,9 @@
 **NLP_HSK** is a small repo primarily based on providing well-curated dataset 
 for **New HSK** (new standard for HSK introduced in March 2022). 
 HSK (a.k.a **H**anyu **S**huiping **K**aoshi) is a standardized way of 
-learning Mandarin chinese and testing the proficiency level.
+learning Mandarin chinese and testing the proficiency level. 
+NLP for HSK is a Natural Language Processing for chinese Mandarin based on 
+HSK learning process.
 
 ## Main motivation
 HSK has several levels, where the first 6 levels has a set vocabulary. 
